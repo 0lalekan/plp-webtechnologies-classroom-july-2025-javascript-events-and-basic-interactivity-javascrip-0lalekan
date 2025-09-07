@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+/* General button style */
+button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Input field */
+#inputField {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Dark mode toggle */
+#toggleBtn {
+    margin: 20px auto;
+    display: block;
+}
+
+/* FAQ box */
+#faq {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#faq h5 {
+    margin: 0 0 10px;
+    color: #333;
+    font-weight: bold;
+}
+#faq p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* Tabs */
+#tabs {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.tabBtn {
+    margin: 5px;
+}
+
+.tabContent {
+    margin-top: 10px;
+}
+
+/* Counter */
+#counter {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Form */
+form {
+  max-width: 300px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+small {
+  color: red;
+  font-size: 12px;
+}
+
+input.success {
+  border-color: green;
+}
+
+input.error {
+  border-color: red;
+}
